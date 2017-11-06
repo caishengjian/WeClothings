@@ -19,7 +19,7 @@ namespace WeClothings.Controllers
             ViewBag.Sortresult = Sorts;
             var s = ProductInfoService.GetEntityes(y => y.ProductSortId == Sorts[0].code);
             ViewBag.s = s;
-            return View();
+            return View();//1235
         }
         public ActionResult ProSortdata()
         {
