@@ -45,6 +45,7 @@
     <Compile Include="INoticeRepository.cs" />
     <Compile Include="IProductInfoRepository.cs" />
     <Compile Include="IProductSortRepository.cs" />
+    <Compile Include="ISearchHistoryRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
