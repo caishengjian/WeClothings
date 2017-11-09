@@ -54,7 +54,7 @@
                 {
                     <a class="swiper-slide" href="gonggao_xq.html">
                     <i>@itme.title</i>
-                        @itme.contents.Substring(0,28).Trim().ToString()...
+                       @itme.contents.Substring(0,28).Trim().ToString()...
                     </a>
                 }
                 @*<a class="swiper-slide" href="gonggao_xq.html"><i>热销</i>西蒙服饰，地位与品位，彰显男士成功的尊贵服饰...</a>
@@ -79,11 +79,10 @@
                     <a href="product_text"><img  src="~/images/@itme.images.Split(',')[0]"/></a>
                     <div class="index_main">
                         <h2>
-                        <p>@itme.name</p> 
-                            @*<span>@itme.images.Split(',')[0]</span>*@   
+                        <p>@itme.name</p>                             
                             <span><img src="~/images/icon_06.png"><img src="~/images/icon_06.png"><img src="~/images/icon_06.png"><img src="~/images/icon_06.png"><img src="~/images/icon_07.png"></span>               
                         </h2>
-                        <p style="font-size:13px;color:darkgrey">@itme.describe</p>
+                        <p style="font-size:13px;color:darkgrey">@itme.describe.Substring(0,45).ToString()...</p>
                         <h3>
                             <p><i>￥</i><b>@itme.yprice</b><span>特级</span><span>甄选</span></p>
                             <a href="product_xq.html">立即购买</a>

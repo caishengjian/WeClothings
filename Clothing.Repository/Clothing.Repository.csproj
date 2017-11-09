@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="BannerRepository.cs" />
     <Compile Include="BaseRepository.cs" />
+    <Compile Include="CustomerRepository.cs" />
     <Compile Include="DbContextFactory.cs" />
     <Compile Include="NoticeRepository.cs" />
     <Compile Include="ProductInfoRepository.cs" />
@@ -65,7 +66,7 @@
       <Name>Clothing.IRepository</Name>
     </ProjectReference>
     <ProjectReference Include="..\Clothing.Model\Clothing.Model.csproj">
-      <Project>{3b4e46ae-280f-4501-b103-fcc5b98a91e4}</Project>
+      <Project>{baf03996-f9a1-4e91-8b0b-08eeafbf145c}</Project>
       <Name>Clothing.Model</Name>
     </ProjectReference>
   </ItemGroup>

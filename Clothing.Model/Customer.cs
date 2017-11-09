@@ -19,10 +19,11 @@ namespace Clothing.Model
         }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int cid { get; set; }
+        [StringLength(50)]
+        public string cid { get; set; }
 
-        public int? openid { get; set; }
+        [StringLength(50)]
+        public string openid { get; set; }
 
         [StringLength(50)]
         public string nickname { get; set; }

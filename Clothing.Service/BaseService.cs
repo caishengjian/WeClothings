@@ -51,10 +51,6 @@ namespace Clothing.Service
             _ibaseRepository.Delete(entity);
             return _ibaseRepository.SaveChanges();
         }
-
-        //public bool SaveChanges(TEntity entity)
-        //{
-        //    throw new NotImplementedException();
-        //}
+     
     }
 }

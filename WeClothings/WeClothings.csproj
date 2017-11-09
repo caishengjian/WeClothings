@@ -150,10 +150,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="base.js" />
+    <Content Include="Cbase.css" />
+    <Content Include="center.css" />
     <Content Include="images\a.jpg" />
     <Content Include="images\a1.jpg" />
     <Content Include="images\a3.jpg" />
     <Content Include="images\a5.jpg" />
+    <Content Include="images\productinfo4.jpg" />
+    <Content Include="jquery-1.7.2.min.js" />
     <Content Include="style\css\animate.css" />
     <Content Include="style\css\Cbase.css" />
     <Content Include="style\css\center.css" />
@@ -315,6 +320,7 @@
   <ItemGroup>
     <Compile Include="App_Start\AutofacConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OAuthController.cs" />
     <Compile Include="Controllers\OAuthhomeController.cs" />
@@ -336,6 +342,7 @@
     <Content Include="Views\ProductSort\Index.cshtml" />
     <Content Include="Views\OAuthhome\Index.cshtml" />
     <Content Include="Views\OAuth\JsSdkConfig.cshtml" />
+    <Content Include="Views\Customer\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -357,7 +364,7 @@
       <Name>Clothing.IService</Name>
     </ProjectReference>
     <ProjectReference Include="..\Clothing.Model\Clothing.Model.csproj">
-      <Project>{3b4e46ae-280f-4501-b103-fcc5b98a91e4}</Project>
+      <Project>{baf03996-f9a1-4e91-8b0b-08eeafbf145c}</Project>
       <Name>Clothing.Model</Name>
     </ProjectReference>
   </ItemGroup>

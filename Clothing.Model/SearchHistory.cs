@@ -12,7 +12,8 @@ namespace Clothing.Model
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int id { get; set; }
 
-        public int? cid { get; set; }
+        [StringLength(50)]
+        public string cid { get; set; }
 
         [StringLength(50)]
         public string contents { get; set; }

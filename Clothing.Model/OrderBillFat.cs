@@ -12,7 +12,8 @@ namespace Clothing.Model
         [Key]
         public Guid code { get; set; }
 
-        public int? cusid { get; set; }
+        [StringLength(50)]
+        public string cusid { get; set; }
 
         [StringLength(10)]
         public string status { get; set; }

@@ -18,7 +18,8 @@ namespace Clothing.Model
         [StringLength(8)]
         public string pid { get; set; }
 
-        public int? cid { get; set; }
+        [StringLength(50)]
+        public string cid { get; set; }
 
         public int? num { get; set; }
 

@@ -17,7 +17,8 @@ namespace Clothing.Model
 
         public int? num { get; set; }
 
-        public int? cid { get; set; }
+        [StringLength(50)]
+        public string cid { get; set; }
 
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime time { get; set; }

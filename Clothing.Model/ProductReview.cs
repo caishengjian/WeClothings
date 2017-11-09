@@ -11,7 +11,8 @@ namespace Clothing.Model
     {
         public int id { get; set; }
 
-        public int? cid { get; set; }
+        [StringLength(50)]
+        public string cid { get; set; }
 
         [StringLength(8)]
         public string pid { get; set; }
