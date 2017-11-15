@@ -47,6 +47,7 @@
     <Compile Include="IProductInfoRepository.cs" />
     <Compile Include="IProductSortRepository.cs" />
     <Compile Include="ISearchHistoryRepository.cs" />
+    <Compile Include="IShopCartRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
