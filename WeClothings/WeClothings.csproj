@@ -324,6 +324,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OAuthController.cs" />
     <Compile Include="Controllers\OAuthhomeController.cs" />
+    <Compile Include="Controllers\ProductInfoController.cs" />
     <Compile Include="Controllers\ProductSortController.cs" />
     <Compile Include="Controllers\ShopCartController.cs" />
     <Compile Include="Filters\OAuthAttribute.cs" />
@@ -345,6 +346,8 @@
     <Content Include="Views\OAuth\JsSdkConfig.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\ShopCart\Index.cshtml" />
+    <Content Include="Views\ProductInfo\Index.cshtml" />
+    <Content Include="Views\ProductInfo\Product_xq.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
